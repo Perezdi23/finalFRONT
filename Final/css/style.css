@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Be Vietnam Pro" , sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --rojoBrillante: rgb(242, 95, 58);
+    --azulOscuro: rgb(35, 44, 81);
+    --azulGrisáceoOscuro: rgb(143, 148, 167);
+    --azulMuyOscuro: rgb(29, 30, 37);
+    --rojoMuyPálido: rgb(255, 239, 234);
+    --varianteGrisClaro: rgb(249, 249, 249);
+}
+
+body{
+    background-image:url("../img/bg-tablet-pattern.svg") ;
+    background-repeat: no-repeat;
+    background-position: 75rem -18.75rem;
+    min-width: 12.5rem;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+main{
+    background-image:url("../img/bg-tablet-pattern.svg") ;
+    background-repeat: no-repeat;
+    background-position: -31.25rem 62.5rem;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.69rem;
+    margin: 4.69rem 9.12rem 4.69rem 10.31rem;
+}
+
+header nav ul li a:hover{
+    opacity: 50%;
+    color: var(--azulGrisáceoOscuro)
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}    
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--azulMuyOscuro);
+    padding:0 1.55em;
+    font-weight: 500;
+    font-size: 0.81em;
+}
+
+header .fa-solid{
+    display: none;
+}
+
+.logo{
+    width: 9em;
+    height: 1.5em;
+
+}
+
+.boton{
+    background-color: var(--rojoBrillante);
+    font-weight: 500;
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3em;
+    color: var(--varianteGrisClaro);
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25)
+    ;
+}
+.botonlista{
+    background-color: var(--rojoBrillante);
+    width: 4.31rem;
+    height: 2.61rem;
+    border-radius: 1.875rem;
+    color: var(--varianteGrisClaro);
+    border: none;
+    padding-top: 0.6em;
+    text-align: center;
+}
+
+.medioizq{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.articulomedioizq{
+    width: 30%;
+    min-width: 310px;
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.035em;
+    margin: 0px;
+    color: var(--azulOscuro);   
+}
+
+.textomain{
+    font-weight: 500;
+    font-size: 1.035;
+    font-family:"Be Vietnam Pro";
+    width: 23.12rem;
+    height: 4.43em;
+    line-height: 157.1%;
+    margin: 1.75rem 0px;
+    color: var(--azulGrisáceoOscuro);
+    
+}
+
+<!--TITULO MEDIO Y TEXTO-->
+.h2main{
+    color: var(--azulOscuro);
+    font-weight: 700;
+    font-size: 2.25em;
+    width: 500px;
+    height: 88px;
+        
+}
+.frasemain{
+    margin-right: 7em;
+    color: var(--azulGrisáceoOscuro);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.graficas{
+    width: 30%;
+    min-width: 290px;
+    display: flex;
+}
+
+.graficas img{
+    width: 100%;
+}
+
+.secclistado{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+}
+
+.secclistado .titulomedio{
+    width: 30%;
+    min-width: 310px;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;    
+}
+
+.parrafo{
+    padding-left: 6em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--azulGrisáceoOscuro);
+    
+}
+
+
+.orden{
+    width: 30%;
+    min-width: 310px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FAFAFA;
+    width: 30%;
+    min-width: 210px;
+    margin: 5px;
+    }
+
+.card img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -35px
+    }
+
+
+.seccioncards{
+    
+    justify-content: space-around;
+    margin: 3rem auto;
+    }
+
+.seccioncards .cartadiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 10%;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.seccioncards h2{
+    text-align: center;
+    
+}        
+
+.centrarboton{
+    display: flex;
+    justify-content: center;
+}
+
+.prefooter{
+    display: flex;
+    background-color: var(--rojoBrillante);
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 2rem; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.prefooter h2{
+    font-weight:700 ;
+    font-size:2rem ;
+    color: var(--varianteGrisClaro);
+    margin:28px;
+    width: 30%;
+    min-width: 290px;
+
+}
+.botonblanco{
+    background-color:  #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3rem;
+    color: #F3603B;
+    border: none;
+    
+}
+
+
+
+footer{
+    display:flex;
+    padding: 4.69rem 9.12rem 4.69rem 10.31rem;
+    background-color:#1E1E26;
+    flex-direction: column;
+    
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 3rem 2rem 3rem;
+    flex-wrap: wrap;
+}
+
+.footer2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2rem;
+    width: 100%;
+
+}
+
+.footerizq{
+    display: flex;
+    flex-direction: column;
+    height: 8em;
+    justify-content: space-between;
+    width: 20%;
+    min-width: 310px;
+    }
+
+.footerizq a{
+    margin: 0rem 0rem 5rem 0rem;
+    }
+
+    .enlacesfooter{
+        width: 30%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 310px;
+
+    }
+
+    .enlacesfooter ul{
+        list-style: none;
+
+    }
+    .enlacesfooter ul a{
+        text-decoration: none;
+        color: #FAFAFA;
+            }
+
+    .enlacesfooter ul li{
+        margin-top: 10px;
+        
+    }
+
+.redes{
+    order:1;
+    justify-content: space-between;
+    }
+
+.redes a i {
+        color: white;
+        font-size: 1.25em;
+    }
+
+.redes a{
+    margin: 0rem 0.2rem;
+    };
+    
+.redes a i:hover {
+        color: #F3603B;
+        }
+.footermedio{
+        display: flex;
+        flex-direction: row;
+    }
+
+.footermedio ul{
+        gap: 2.65em;
+        list-style-type: none;
+        text-decoration: none;
+        color: var(--varianteGrisClaro);
+    }
+.footermedio ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--varianteGrisClaro);
+    font-weight: 400;
+    font-size: 0.81em;
+    }
+
+
+.footerderecha{
+    text-align: center;
+    width: 20%;
+    min-width: 310px;
+    }
+
+.pcopy{
+    color: var(--varianteGrisClaro);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+input[type=submit]{
+    background-color: var(--rojoBrillante);
+    width: 3.9rem;
+    height: 2.6rem;
+    border-radius: 1.875rem;
+    color: var(--varianteGrisClaro);
+    border: none;
+    }
+
+    input[type=email]{
+        border-radius: 1.875rem;
+        border: none;
+        padding:0.6rem;
+    }
+
+
+
+
+
+    /* tamaño mobile*/
+
+    @media (max-width: 770px){
+        
+
+nav{
+    display: none;
+}
+
+header .fa-solid{
+    display: initial;
+}
+    
+
+header{
+        margin: 3rem auto 3rem;
+        padding: 10px;
+        box-sizing: border-box;    
+    }
+    
+header .boton{
+        display: none;
+    }
+    
+header nav{
+        width: fit-content;
+    }
+    
+.medioizq{
+        flex-direction: column-reverse;
+    }
+    
+    
+    
+.prefooter{
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+    
+.footer1{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+        
+    }
+    .footerizq, .enlacesfooter, .footerderecha{
+        width: 100%;
+        margin: auto;
+    }
+
+    }
+
+
+
+
+
+    
+/* tamaño tablet*/
+    @media (max-width: 1200px){
+        
+header{
+    margin: 3rem auto 3rem;
+    padding: 10px;
+    box-sizing: border-box;    
+}
+
+header .boton{
+    display: none;
+}
+
+header nav{
+    width: fit-content;
+}
+
+.medioizq{
+    flex-direction: column-reverse;
+}
+
+
+
+.prefooter{
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer1{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.footerizq, .enlacesfooter, .footerderecha{
+    width: 100%;
+    margin: auto;
+}
+
+}
