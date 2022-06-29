@@ -192,7 +192,7 @@ h1{
     text-align: center;
     background-color: #FAFAFA;
     width: 30%;
-    min-width: 210px;
+    min-width: 250px;
     margin: 5px;
     }
 
@@ -262,18 +262,17 @@ h1{
 
 footer{
     display:flex;
-    padding: 4.69rem 9.12rem 4.69rem 10.31rem;
     background-color:#1E1E26;
     flex-direction: column;
-    
+    width: 100vw;
 }
 
 .footer1{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 2rem auto;
     box-sizing: border-box;
-    padding: 1rem 3rem 2rem 3rem;
     flex-wrap: wrap;
 }
 
@@ -290,34 +289,40 @@ footer{
     flex-direction: column;
     height: 8em;
     justify-content: space-between;
-    width: 20%;
-    min-width: 310px;
+    align-items: center;
+    width: 30%;
+    min-width: 290px;
     }
 
 .footerizq a{
     margin: 0rem 0rem 5rem 0rem;
     }
 
-    .enlacesfooter{
+.enlacesfooter{
         width: 30%;
     display: flex;
     justify-content: space-between;
-    min-width: 310px;
-
-    }
+    min-width: 290px;
+}
 
     .enlacesfooter ul{
         list-style: none;
-
+        gap: 2.65em;
+        list-style-type: none;
+        text-decoration: none;
+        color: var(--varianteGrisClaro);
     }
     .enlacesfooter ul a{
         text-decoration: none;
-        color: #FAFAFA;
-            }
+        list-style-type: none;
+        text-decoration: none;
+        color: var(--varianteGrisClaro);
+        font-weight: 400;
+        font-size: 0.81em;
+    }
 
     .enlacesfooter ul li{
         margin-top: 10px;
-        
     }
 
 .redes{
@@ -337,30 +342,12 @@ footer{
 .redes a i:hover {
         color: #F3603B;
         }
-.footermedio{
-        display: flex;
-        flex-direction: row;
-    }
-
-.footermedio ul{
-        gap: 2.65em;
-        list-style-type: none;
-        text-decoration: none;
-        color: var(--varianteGrisClaro);
-    }
-.footermedio ul a{
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--varianteGrisClaro);
-    font-weight: 400;
-    font-size: 0.81em;
-    }
 
 
 .footerderecha{
     text-align: center;
-    width: 20%;
-    min-width: 310px;
+    width: 30%;
+    min-width: 290px;
     }
 
 .pcopy{
@@ -438,9 +425,11 @@ header nav{
         
         
     }
-    .footerizq, .enlacesfooter, .footerderecha{
-        width: 100%;
-        margin: auto;
+
+
+    .footer2{
+        display: flex;
+        justify-content: center;
     }
 
     }
@@ -484,9 +473,5 @@ header nav{
     align-items: center;
 }
 
-.footerizq, .enlacesfooter, .footerderecha{
-    width: 100%;
-    margin: auto;
-}
 
 }
